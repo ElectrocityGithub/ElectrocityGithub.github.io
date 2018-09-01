@@ -332,7 +332,7 @@ box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.3);
   position:absolute;
   background-position:center;
   background-size:cover;
-  background-image:url("images/bg.jpg");
+  background-image:url("../images/bg.jpg");
   z-index:-1;
   height:$heroHeight;
   width: 100%;
@@ -443,7 +443,7 @@ p {
 }
 #hero-mobile {
   display: none;
-  background: url("images/conten.png")
+  background: url("../images/content.png")
     no-repeat center bottom / cover;
   height: 100vh;
 }
@@ -596,7 +596,7 @@ clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
   color:$blue;
 }
 .photo-01{
-  background-image:url('images/content.jpg');
+  background-image:url('../images/content.jpg');
   background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
@@ -619,13 +619,13 @@ clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
     background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-    background-image:url('images/content.jpg');
+    background-image:url('../images/content.jpg');
   }
   50%{
     background-repeat:no-repeat;
   background-size:cover;
   background-position:center;
-    background-image:url('images/content.jpg');
+    background-image:url('../images/content.jpg');
   }
   51%{
     background:$grey;
