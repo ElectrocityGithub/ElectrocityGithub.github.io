@@ -135,7 +135,7 @@ body {
   border-color: linear-gradient(to right, #f1f1f1 0%, #f1f1f1 50%, #6393c8 50%, #6393c8 100%);
 }
 
-#loader1 {
+#loader {
   position: fixed;
   z-index: 999;
   background: #f1f1f1;
@@ -149,7 +149,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-.load1 {
+.load {
   border: 0;
   height: 20px;
   margin: 0;
@@ -358,7 +358,7 @@ body {
   position: absolute;
   background-position: center;
   background-size: cover;
-  background-image: url("https://res.cloudinary.com/devkosov/image/upload/v1528043007/bg1_zyohzy2_hrj2n5.jpg");
+  background-image: url("../images/bg.jpg");
   z-index: -1;
   height: 100vh;
   width: 100%;
@@ -483,7 +483,7 @@ p {
 
 #hero-mobile {
   display: none;
-  background: url("https://res.cloudinary.com/devkosov/image/upload/v1518648285/FULL_nsuduy.png") no-repeat center bottom/cover;
+  background: url("#") no-repeat center bottom/cover;
   height: 100vh;
 }
 
@@ -493,11 +493,11 @@ p {
 }
 
 @media only screen and (max-width: 768px) {
-  #hero {
+  #heroq {
     display: none;
   }
 
-  #hero-mobile {
+  #hero-mobileq {
     display: flex;
     z-index: -1;
     align-items: center;
@@ -645,7 +645,7 @@ p {
 }
 
 .photo-01 {
-  background-image: url("https://res.cloudinary.com/devkosov/image/upload/v1512764160/thumb-1920-435117_mstjxg.jpg");
+  background-image: url("../images/content.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -671,13 +671,13 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("https://res.cloudinary.com/devkosov/image/upload/v1512764160/thumb-1920-435117_mstjxg.jpg");
+    background-image: url("../images/content.jpg");
   }
   50% {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("https://res.cloudinary.com/devkosov/image/upload/v1512764160/thumb-1920-435117_mstjxg.jpg");
+    background-image: url("../images/content.jpg");
   }
   51% {
     background: #f1f1f1;
