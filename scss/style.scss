@@ -120,7 +120,7 @@ body {
 }
 //Loader
 
-#loader1{
+#loader{
 	position:fixed;
 	z-index:999;//on top of everything
 	background:$grey;//background
@@ -133,7 +133,7 @@ body {
 	animation-delay: 1.2s;
 	animation-fill-mode:forwards;//lets the loader retain the style values from the last keyframe when the animation ends
 }
-.load1{
+.load{
 	border:0;
 	height:20px;//height of the animated loader
 	margin:0;
