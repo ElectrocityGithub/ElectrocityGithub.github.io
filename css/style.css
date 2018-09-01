@@ -358,7 +358,7 @@ body {
   position: absolute;
   background-position: center;
   background-size: cover;
-  background-image: url("images/bg.jpg");
+  background-image: url("../images/bg.jpg");
   z-index: -1;
   height: 100vh;
   width: 100%;
@@ -645,7 +645,7 @@ p {
 }
 
 .photo-01 {
-  background-image: url("images/content.jpg");
+  background-image: url("../images/content.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -671,13 +671,13 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("images/content.jpg");
+    background-image: url("../images/content.jpg");
   }
   50% {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-image: url("images/content.jpg");
+    background-image: url("../images/content.jpg");
   }
   51% {
     background: #f1f1f1;
