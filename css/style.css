@@ -135,7 +135,7 @@ body {
   border-color: linear-gradient(to right, #f1f1f1 0%, #f1f1f1 50%, #6393c8 50%, #6393c8 100%);
 }
 
-#loader1 {
+#loader {
   position: fixed;
   z-index: 999;
   background: #f1f1f1;
@@ -149,7 +149,7 @@ body {
   animation-fill-mode: forwards;
 }
 
-.load1 {
+.load {
   border: 0;
   height: 20px;
   margin: 0;
